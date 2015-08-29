@@ -1,5 +1,3 @@
-__author__ = 'v'
-
 import cmath
 import math
 import sys
