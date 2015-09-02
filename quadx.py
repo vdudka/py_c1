@@ -16,7 +16,7 @@ def get_float(msg, allow_zero):
     return x
 
 
-print("ax\N{SUPERSCRIPT TWO} + bx + c = 0")
+print("ax^2 + bx + c = 0")
 a = get_float("enter a: ", False)
 b = get_float("enter b: ", True)
 c = get_float("enter c: ", True)
@@ -34,8 +34,8 @@ else:
     x1 = (-b + root) / (2 * a)
     x2 = (-b - root) / (2 * a)
 
-equation = ("{0}x\N{SUPERSCRIPT TWO} + {1}x + {2} = 0"
-            " \N{RIGHTWARDS ARROW} x = {3}").format(a, b, c, x1)
+equation = ("{0}x^2 + {1}x + {2} = 0"
+            "  x = {3}").format(a, b, c, x1)
 if x2 is not None:
     equation += " or x = {0}".format(x2)
 print(equation)

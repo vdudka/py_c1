@@ -1,8 +1,3 @@
-__author__ = 'v'
-
-#!/usr/bin/env python3
-__author__ = 'v'
-
 import sys
 
 Zero = ["  ***  ",

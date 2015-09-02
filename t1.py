@@ -1,5 +1,10 @@
+from builtins import print
 
-s = "112345"
+s = "The test 1122!"
 
-for i in s:
-    print(i)
+a = "{0:.5}".format(s)
+
+print(a)
+
+# for i in s:
+#     print(i)
